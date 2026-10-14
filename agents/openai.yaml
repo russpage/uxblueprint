@@ -1,0 +1,14 @@
+interface:
+  display_name: uxblueprint
+  short_description: Plan, build, and audit application interfaces
+  default_prompt: Use $uxblueprint to plan and build my application interface in stages,
+    with evidence for each acceptance gate.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
